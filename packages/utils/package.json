@@ -1,0 +1,29 @@
+{
+  "name": "@skyeyes/utils",
+  "version": "2.0.0",
+  "type": "module",
+  "private": false,
+  "description": "",
+  "main": "./dist/utils.js",
+  "module": "./dist/utils.js",
+  "exports": {
+    ".": {
+      "import": "./dist/utils.js",
+      "require": "./dist/utils.umd.cjs"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite-plugin-dts": "^2.3.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}
